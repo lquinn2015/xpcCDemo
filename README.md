@@ -1,5 +1,7 @@
 # XPC_c_app
 
+More details incoming at xphosnet.blogspot.com
+
 Getting this to work. First run make to build client and server. 
 
 root@localhost -> iphone
