@@ -17,7 +17,7 @@ int64_t bar(int64_t num1, int64_t *outNum2);
 xpc_connection_t XPCService;
 
 void XPCListen() {
-    xpc_connection_t service = xpc_connection_create_mach_service("com.johnappleseed.ExampleDaemon", NULL, XPC_CONNECTION_MACH_SERVICE_LISTENER);
+    xpc_connection_t service = xpc_connection_create_mach_service("com.johnappleseed.server", NULL, XPC_CONNECTION_MACH_SERVICE_LISTENER);
     
     xpc_connection_set_event_handler(service, ^(xpc_object_t connection) {
         xpc_connection_set_event_handler(connection, ^(xpc_object_t event) {

@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>Label</key>
-	<string>com.johnappleseed.ExampleDaemon</string>
+	<string>com.johnappleseed.server</string>
 	<key>ProgramArguments</key>
 	<array>
-		<string>/usr/local/libexec/ExampleDaemon</string>
+		<string>/usr/local/server</string>
 	</array>
 	<key>RunAtLoad</key>
 	<true/>
@@ -14,7 +14,7 @@
 	<true/>
 	<key>MachServices</key>
 	<dict>
-		<key>com.johnappleseed.ExampleDaemon</key>
+		<key>com.johnappleseed.server</key>
 		<true/>
 	</dict>
 </dict>
